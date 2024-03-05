@@ -1,6 +1,7 @@
 {
   "name": "dayjs-locale-en-bs",
   "version": "1.0.0",
+  "type": "module",
   "description": "Day.js locale configuration for English (Bahamas)",
   "main": "index.js",
   "repository": "https://github.com/agio-digital/dayjs-locale-en-bs.git",
