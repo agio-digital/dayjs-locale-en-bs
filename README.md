@@ -6,6 +6,23 @@ This repository contains the Day.js locale configuration for English as used in 
 
 To use this locale configuration in your project, first ensure that you have [Day.js](https://day.js.org/) installed. Then, you can install this locale configuration by cloning this repository or copying the `index.js` file directly into your project.
 
+**Clone**
 ```bash
 git clone https://github.com/agio-digital/dayjs-locale-en-bs.git
+```
+
+**Install**
+```bash
+yarn add https://github.com/agio-digital/dayjs-locale-en-bs.git
+```
+
+or
+
+```bash
+npm install https://github.com/agio-digital/dayjs-locale-en-bs.git --save
+```
+
+**Use**
+```js
+import "dayjs-locale-en-bs";
 ```
