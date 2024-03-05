@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Day.js locale configuration for English (Bahamas)",
-  "main": "index.js",
-  "module": "index.mjs",
+  "module": "index.js",
+  "main": "index.cjs",
   "exports": {
     ".": {
-      "import": "./index.mjs",
-      "require": "./index.js"
-    }
+      "import": "./index.js",
+      "require": "./index.cjs"
+    },
+    "./package.json": "./package.json"
   },
   "repository": "https://github.com/agio-digital/dayjs-locale-en-bs.git",
   "author": "Chris Wijnia <ccwijnia@gmail.com>",

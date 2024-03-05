@@ -1,6 +1,6 @@
 // English (Bahamas) [en-bs]
 
-import dayjs from "dayjs";
+const dayjs = require("dayjs");
 
 const locale = {
   name: "en-bs",
@@ -48,4 +48,4 @@ const locale = {
 
 dayjs.locale(locale, null, true);
 
-export default locale;
+module.exports = locale;
